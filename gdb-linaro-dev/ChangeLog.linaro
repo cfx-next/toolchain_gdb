@@ -1,0 +1,19 @@
+2013-04-08  Matthew Gretton-Dann  <matthew.gretton-dann@linaro.org>
+
+	GDB Linaro 7.6 2013.04 released.
+
+	gdb/
+	* version.in: Update.
+
+2013-04-08  Matthew Gretton-Dann  <matthew.gretton-dann@linaro.org>
+
+	* src-release: Support gdb-linaro packages.
+
+	gdb/
+	* configure.ac (PKGVERSION, BUGURL): Refer to Linaro.
+	* configure: Regenerate.
+
+	gdb/gdbserver/
+	* configure.ac (PKGVERSION, BUGURL): Refer to Linaro.
+	* configure: Regenerate.
+
